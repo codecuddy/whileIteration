@@ -55,7 +55,7 @@ namespace whileIteration
         private static void PrintNumbers()
         {
             Console.Clear();
-            Console.WriteLine("Print Numbers!");
+            Console.WriteLine("Print Numbers");
             Console.Write("Type a number: ");
             int result = int.Parse(Console.ReadLine());
             int counter = 1;
@@ -71,7 +71,7 @@ namespace whileIteration
         private static void GuessingGame()
         {
             Console.Clear();
-            Console.WriteLine("Guessing Game!");
+            Console.WriteLine("Guessing Game");
 
             Random myRandom = new Random();
             int randomNumber = myRandom.Next(1, 11);
